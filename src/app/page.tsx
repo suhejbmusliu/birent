@@ -8,6 +8,7 @@ import { Fleet } from "@/components/Fleet";
 import { CTABanner } from "@/components/CTABanner";
 import { WhyChooseUs } from "@/components/WhyChooseUs";
 import { Testimonial } from "@/components/Testimonial";
+import { Contact } from "@/components/Contact";
 import { Newsletter } from "@/components/Newsletter";
 import { Footer } from "@/components/Footer";
 
@@ -24,6 +25,7 @@ export default function Home() {
       <CTABanner />
       <WhyChooseUs />
       <Testimonial />
+      <Contact />
       <Newsletter />
       <Footer />
     </main>
